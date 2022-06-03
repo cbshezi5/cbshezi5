@@ -228,6 +228,7 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  margin-right:-60px;
 }
 
 .home__blob {
@@ -341,7 +342,7 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .work__img {
@@ -351,7 +352,7 @@ img {
 }
 
 .work__img img {
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .work__img img:hover {
@@ -512,7 +513,7 @@ img {
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
+    column-gap: 4rem;
   }
 }
 
