@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 3.0rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
@@ -228,7 +228,6 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
-  margin-right:-60px;
 }
 
 .home__blob {
