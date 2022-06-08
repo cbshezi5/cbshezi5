@@ -391,6 +391,12 @@ iframe {
     height: 100%;
 }
 
+@media screen and (min-width: 968px) {
+    .image_work {
+        object-fit: cover;
+    }
+}
+
 .work__img img {
     transition: 0.5s;
 }
