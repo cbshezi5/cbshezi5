@@ -386,21 +386,20 @@ iframe {
     transform: scale(1.1);
 }
 
-.image_work {
-    object-fit: cover;
-    height: 100%;
-}
-
-
-
 @media only screen and (max-width: 600px) {
     .work__img {
         box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
         border-radius: .5rem;
         overflow: hidden;
-        transform: scale(0.6);
+        transform: scale(0.9);
     }
-  }
+}
+
+.image_work {
+    object-fit: cover;
+    height: 100%;
+}
+
 
 .work__img img {
     transition: 0.5s;
