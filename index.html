@@ -198,14 +198,78 @@
 
             <div class="contact__container bd-grid">
                 <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
-                    <input type="button" value="Send" class="contact__button button">
+                    <input type="text" id="name" placeholder="Name" class="contact__input" required>
+                    <input type="mail" id="email" placeholder="Email" class="contact__input" required>
+                    <textarea name="" id="body" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                    <input type="button" id="submit" value="Send" class="contact__button button">
                 </form>
             </div>
         </section>
     </main>
+    <script>
+        enter()
+        async function enter() {
+            let res = await GETRequest(`https://portfolio-ba.herokuapp.com/enter`)
+        }
+        const submit = document.getElementById("submit");
+        const name = document.getElementById("name");
+        const email = document.getElementById("email");
+        const body = document.getElementById("body");
+        submit.addEventListener('mousedown', async function() {
+
+            if (email.value == "") {
+                alert("Enter the email address")
+                return
+            }
+            if (email.value == "") {
+                alert("Enter the email address")
+                return
+            }
+            if (email.value.indexOf('@') < 1) {
+                alert("Invalid Email Address")
+                return
+            }
+            if (email.value.indexOf('.') < 1) {
+                alert("Invalid Email Address")
+                return
+            }
+            if (body.value == "") {
+                alert("Enter the body of the email")
+                return
+            }
+            if (name.value == "") {
+                alert("Enter enter your name")
+                return
+            }
+
+
+
+
+            submit.style.backgroundColor = "grey"
+            submit.value = "Thank you"
+            submit.disabled = true
+            let resp = await GETRequest(`https://portfolio-ba.herokuapp.com/?email=${email.value}&body=${body.value}&name=${name.value}`)
+            alert("Thank you for sending the email I will reply as soon as possible")
+
+
+
+        })
+
+        async function GETRequest(url) {
+            let responseReturn
+            await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        Accept: 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                }).then((response) => response.json())
+                .then((responseJson) => {
+                    responseReturn = responseJson
+                });
+            return (responseReturn)
+        }
+    </script>
 
     <!--===== FOOTER =====-->
     <footer class="footer">
