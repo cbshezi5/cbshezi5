@@ -55,8 +55,8 @@ const projects: { n: string; name: string; type: string; featured?: boolean; des
     detail: "Banking workflows covering account opening, remittances and RTLoans, with a focus on everyday operations and client support.",
   },
   {
-    n: "06", name: "Orbit", type: "Private: In development",
-    description: "A mobile social experience, from everyday feeds to live conversations. Built with Expo, Supabase and real-time media.",
+    n: "06", name: "Nowl", type: "Private: In development",
+    description: "A mobile social location based for spots around you that u can visit Now Location.",
     tags: ["React Native", "Supabase", "LiveKit", "Passion Project", "AI-Integrations"],
     detail: "A side project covering profiles, photo and video posts, feeds, live lobbies and broadcast rooms. Recent development focuses on Android builds, map integration and the mobile experience.",
   },
