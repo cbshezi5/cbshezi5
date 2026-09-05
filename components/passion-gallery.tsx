@@ -53,5 +53,32 @@ function AppGallery({ project }: { project: Project }) {
         <p className="viewer-help mono">Swipe or use ← → to explore · Esc to close</p>
       </DialogContent>
     </Dialog>
+    {project.slug === "purple-leaf" && <PurpleLeafDemo />}
   </article>;
+}
+
+function PurpleLeafDemo() {
+  const [open, setOpen] = useState(false);
+  return <Dialog open={open} onOpenChange={setOpen}>
+    <div className="app-demo-action">
+      <DialogTrigger className="app-demo-button">Try app ↗</DialogTrigger>
+    </div>
+    <DialogContent className="app-viewer snack-viewer">
+      <DialogTitle className="viewer-title">Try Purple Leaf</DialogTitle>
+      <DialogDescription className="viewer-description">
+        Explore the app with Expo Go using the device instructions below.
+      </DialogDescription>
+      {/* The documented embedded URL avoids a global script scanning React's DOM.
+          Mount only while open so closing the demo releases its runtime. */}
+      {open && <iframe
+        className="snack-frame"
+        title="Purple Leaf interactive Expo Snack"
+        src="https://snack.expo.dev/embedded/@cbshezi5/purple-leaf?platform=mydevice&preview=true&theme=dark"
+        allow="clipboard-write"
+      />}
+      <a className="snack-fallback" href="https://snack.expo.dev/@cbshezi5/purple-leaf" target="_blank" rel="noreferrer">
+        Having trouble? Open in Expo Snack ↗
+      </a>
+    </DialogContent>
+  </Dialog>;
 }

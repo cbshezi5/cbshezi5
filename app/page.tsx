@@ -3,7 +3,16 @@ import { PassionGallery } from "../components/passion-gallery";
 const github = "https://github.com/cbshezi5";
 const linkedin = "https://www.linkedin.com/in/cebolenkosi-shezi-17a6b9221/";
 const resume = "./Cebolenkosi-Shezi-Resume.pdf";
-const projects: { n: string; name: string; type: string; featured?: boolean; description: string; tags: string[]; detail?: string; href?: string }[] = [
+const projects: {
+  n: string;
+  name: string;
+  type: string;
+  featured?: boolean;
+  description: string;
+  tags: string[];
+  detail?: string;
+  href?: string;
+}[] = [
   {
     n: "01",
     name: "Fraud Management System",
@@ -11,7 +20,14 @@ const projects: { n: string; name: string; type: string; featured?: boolean; des
     featured: true,
     description:
       "Turning Tazama into a fraud-management product. Users analyse fraud reports, dispute or confirm risk assessments, and manage configuration through Rule Manager.",
-    tags: ["Fraud analysis", "Risk assessment", "Rule Manager", "Angular", "Angular: Plugin Arch", "Sybrin"],
+    tags: [
+      "Fraud analysis",
+      "Risk assessment",
+      "Rule Manager",
+      "Angular",
+      "Angular: Plugin Arch",
+      "Sybrin",
+    ],
     detail:
       "At Sybrin, I contributed to the productization of Tazama as the Fraud Management System, bringing fraud-report analysis, risk-assessment review and configuration management into user-facing workflows.",
   },
@@ -21,7 +37,14 @@ const projects: { n: string; name: string; type: string; featured?: boolean; des
     type: "Professional work: Fraud Risk Management",
     description:
       "Checking the stability of Tazama and making dropped cases visible through detection and reporting.",
-    tags: ["Service stability", "Dropped cases", "Reporting", "JobVClaim", "Worker", "Sybrin"],
+    tags: [
+      "Service stability",
+      "Dropped cases",
+      "Reporting",
+      "JobVClaim",
+      "Worker",
+      "Sybrin",
+    ],
     detail:
       "Developed as part of the Tazama product work, the monitoring service checks system stability, identifies cases that were dropped and reports them for investigation.",
   },
@@ -31,7 +54,13 @@ const projects: { n: string; name: string; type: string; featured?: boolean; des
     type: "Professional work: Open-source contribution",
     description:
       "Fraud detection where reliability matters. Contributing to a fraud-risk engine that processes ISO-standard financial messages.",
-    tags: ["TypeScript", "Fraud risk", "Performance", "Microservices", "Sybrin"],
+    tags: [
+      "TypeScript",
+      "Fraud risk",
+      "Performance",
+      "Microservices",
+      "Sybrin",
+    ],
     detail:
       "My contribution spans feature development, maintenance, benchmarking and reliability improvements, working alongside the open-source community through my role at Sybrin.",
   },
@@ -51,274 +80,302 @@ const projects: { n: string; name: string; type: string; featured?: boolean; des
     type: "Professional work: Hyper-Automation",
     description:
       "Bank based solution for workflow of every day bank operations like Account opening, Remittances and RTLoans .",
-    tags: ["JavaScript", "Scheduling", "Web", "Client Support", "Bank Systems", "Product", "Sybrin"],
-    detail: "Banking workflows covering account opening, remittances and RTLoans, with a focus on everyday operations and client support.",
+    tags: [
+      "JavaScript",
+      "Scheduling",
+      "Web",
+      "Client Support",
+      "Bank Systems",
+      "Product",
+      "Sybrin",
+    ],
+    detail:
+      "Banking workflows covering account opening, remittances and RTLoans, with a focus on everyday operations and client support.",
   },
   {
-    n: "06", name: "Nowl", type: "Private: In development",
-    description: "A mobile social location based for spots around you that u can visit Now Location.",
-    tags: ["React Native", "Supabase", "LiveKit", "Passion Project", "AI-Integrations"],
-    detail: "A side project covering profiles, photo and video posts, feeds, live lobbies and broadcast rooms. Recent development focuses on Android builds, map integration and the mobile experience.",
+    n: "06",
+    name: "Nowl",
+    type: "Private: In development",
+    description:
+      "A mobile social location based for spots around you that u can visit Now Location.",
+    tags: [
+      "React Native",
+      "Supabase",
+      "LiveKit",
+      "Passion Project",
+      "AI-Integrations",
+    ],
+    detail:
+      "A side project covering profiles, photo and video posts, feeds, live lobbies and broadcast rooms. Recent development focuses on Android builds, map integration and the mobile experience.",
   },
 ];
 
 const passionProjects = [
   {
-    "name": "Spade",
-    "slug": "spade",
-    "headline": "Social Media Application.",
-    "description": "A social app concept bringing discovery, a shared feed and personal conversations into one experience.",
-    "screens": [
+    name: "Spade",
+    slug: "spade",
+    headline: "Social Media Application.",
+    description:
+      "A social app concept bringing discovery, a shared feed and personal conversations into one experience.",
+    screens: [
       {
-        "image": "01.jpg",
-        "title": "Discover people",
-        "caption": "Browse profiles and react to people you want to connect with.",
-        "width": 1080,
-        "height": 2280
+        image: "01.jpg",
+        title: "Discover people",
+        caption:
+          "Browse profiles and react to people you want to connect with.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "02.jpg",
-        "title": "Find your space",
-        "caption": "Explore discovery modes and account options from the navigation drawer.",
-        "width": 1080,
-        "height": 2280
+        image: "02.jpg",
+        title: "Find your space",
+        caption:
+          "Explore discovery modes and account options from the navigation drawer.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "06.jpg",
-        "title": "Make it personal",
-        "caption": "View a profile, connections and matching activity.",
-        "width": 1080,
-        "height": 2280
+        image: "06.jpg",
+        title: "Make it personal",
+        caption: "View a profile, connections and matching activity.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "03.jpg",
-        "title": "Join the feed",
-        "caption": "Share updates and interact with posts through likes and comments.",
-        "width": 1080,
-        "height": 2280
+        image: "03.jpg",
+        title: "Join the feed",
+        caption:
+          "Share updates and interact with posts through likes and comments.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "05.jpg",
-        "title": "Follow the activity",
-        "caption": "See mentions, post updates and connection requests together.",
-        "width": 1080,
-        "height": 2280
+        image: "05.jpg",
+        title: "Follow the activity",
+        caption: "See mentions, post updates and connection requests together.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "04.jpg",
-        "title": "Start a conversation",
-        "caption": "Move from discovery into a one-to-one chat.",
-        "width": 1080,
-        "height": 2280
+        image: "04.jpg",
+        title: "Start a conversation",
+        caption: "Move from discovery into a one-to-one chat.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "07.jpg",
-        "title": "Keep it going",
-        "caption": "Compose a reply without leaving the conversation.",
-        "width": 1080,
-        "height": 2280
-      }
-    ]
+        image: "07.jpg",
+        title: "Keep it going",
+        caption: "Compose a reply without leaving the conversation.",
+        width: 1080,
+        height: 2280,
+      },
+    ],
   },
   {
-    "name": "Bus Point",
-    "slug": "bus-point",
-    "headline": "Student Transport App.",
-    "description": "A student transport app that connects campus routes, available departures, booking and boarding checks.",
-    "screens": [
+    name: "Bus Point",
+    slug: "bus-point",
+    headline: "Student Transport App.",
+    description:
+      "A student transport app that connects campus routes, available departures, booking and boarding checks.",
+    screens: [
       {
-        "image": "01.jpg",
-        "title": "Create an account",
-        "caption": "Start registration with an account password.",
-        "width": 1080,
-        "height": 2280
+        image: "01.jpg",
+        title: "Create an account",
+        caption: "Start registration with an account password.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "04.jpg",
-        "title": "Sign in",
-        "caption": "Access the app with a staff or student number.",
-        "width": 1080,
-        "height": 2280
+        image: "04.jpg",
+        title: "Sign in",
+        caption: "Access the app with a staff or student number.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "08.jpg",
-        "title": "Recover from an error",
-        "caption": "Inline feedback makes an incorrect password visible.",
-        "width": 1080,
-        "height": 2280
+        image: "08.jpg",
+        title: "Recover from an error",
+        caption: "Inline feedback makes an incorrect password visible.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "09.jpg",
-        "title": "Choose your route",
-        "caption": "Select a campus for your journey.",
-        "width": 1080,
-        "height": 2280
+        image: "09.jpg",
+        title: "Choose your route",
+        caption: "Select a campus for your journey.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "06.jpg",
-        "title": "Find a departure",
-        "caption": "Browse time slots, available spaces and departure status.",
-        "width": 1080,
-        "height": 2280
+        image: "06.jpg",
+        title: "Find a departure",
+        caption: "Browse time slots, available spaces and departure status.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "02.jpg",
-        "title": "Confirm the booking",
-        "caption": "Review the route and departure before confirming.",
-        "width": 1080,
-        "height": 2280
+        image: "02.jpg",
+        title: "Confirm the booking",
+        caption: "Review the route and departure before confirming.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "07.jpg",
-        "title": "Keep track of trips",
-        "caption": "Review active, used and expired bookings.",
-        "width": 1080,
-        "height": 2280
+        image: "07.jpg",
+        title: "Keep track of trips",
+        caption: "Review active, used and expired bookings.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "05.jpg",
-        "title": "Get ready to board",
-        "caption": "Open the trip QR code for the driver to scan.",
-        "width": 1080,
-        "height": 2280
+        image: "05.jpg",
+        title: "Get ready to board",
+        caption: "Open the trip QR code for the driver to scan.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "03.jpg",
-        "title": "Start the driver journey",
-        "caption": "See the assigned route before beginning the trip.",
-        "width": 1080,
-        "height": 2280
+        image: "03.jpg",
+        title: "Start the driver journey",
+        caption: "See the assigned route before beginning the trip.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "13.jpg",
-        "title": "Check admission",
-        "caption": "Review the passenger and trip details at boarding.",
-        "width": 1080,
-        "height": 2280
+        image: "13.jpg",
+        title: "Check admission",
+        caption: "Review the passenger and trip details at boarding.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "10.jpg",
-        "title": "Manage your account",
-        "caption": "Access profile and trip options from the home screen.",
-        "width": 1080,
-        "height": 2280
+        image: "10.jpg",
+        title: "Manage your account",
+        caption: "Access profile and trip options from the home screen.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "11.jpg",
-        "title": "Update your details",
-        "caption": "Edit and save profile information.",
-        "width": 1080,
-        "height": 2280
+        image: "11.jpg",
+        title: "Update your details",
+        caption: "Edit and save profile information.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "12.jpg",
-        "title": "Confirm account changes",
-        "caption": "An explicit confirmation guards the account deletion action.",
-        "width": 1080,
-        "height": 2280
-      }
-    ]
+        image: "12.jpg",
+        title: "Confirm account changes",
+        caption: "An explicit confirmation guards the account deletion action.",
+        width: 1080,
+        height: 2280,
+      },
+    ],
   },
   {
-    "name": "Fleetly",
-    "slug": "fleetly",
-    "headline": "A taxi booking concept.",
-    "description": "A taxi booking concept exploring map-based pickup, trip preferences and ride selection.",
-    "screens": [
+    name: "Fleetly",
+    slug: "fleetly",
+    headline: "A taxi booking concept.",
+    description:
+      "A taxi booking concept exploring map-based pickup, trip preferences and ride selection.",
+    screens: [
       {
-        "image": "02.jpg",
-        "title": "Find your starting point",
-        "caption": "Begin with location search or your current position.",
-        "width": 1080,
-        "height": 2280
+        image: "02.jpg",
+        title: "Find your starting point",
+        caption: "Begin with location search or your current position.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "01.jpg",
-        "title": "Set the journey",
-        "caption": "Enter departure and destination on the map.",
-        "width": 1080,
-        "height": 2280
+        image: "01.jpg",
+        title: "Set the journey",
+        caption: "Enter departure and destination on the map.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "03.jpg",
-        "title": "Shape the trip",
-        "caption": "Choose a drop-off and explore saved or recent trips.",
-        "width": 1080,
-        "height": 2280
+        image: "03.jpg",
+        title: "Shape the trip",
+        caption: "Choose a drop-off and explore saved or recent trips.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "06.jpg",
-        "title": "Add your preferences",
-        "caption": "Adjust trip options such as music or being in a hurry.",
-        "width": 1080,
-        "height": 2280
+        image: "06.jpg",
+        title: "Add your preferences",
+        caption: "Adjust trip options such as music or being in a hurry.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "04.jpg",
-        "title": "Compare rides",
-        "caption": "See the route alongside vehicle options and displayed fares.",
-        "width": 1080,
-        "height": 2280
+        image: "04.jpg",
+        title: "Compare rides",
+        caption: "See the route alongside vehicle options and displayed fares.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "05.jpg",
-        "title": "Manage the experience",
-        "caption": "Open payments, ride history, promotions and account settings.",
-        "width": 1080,
-        "height": 2280
-      }
-    ]
+        image: "05.jpg",
+        title: "Manage the experience",
+        caption:
+          "Open payments, ride history, promotions and account settings.",
+        width: 1080,
+        height: 2280,
+      },
+    ],
   },
   {
-    "name": "Purple Leaf",
-    "slug": "purple-leaf",
-    "headline": "A score calculator concept.",
-    "description": "An APS calculator concept helping matriculants explore tertiary courses and compare entry requirements.",
-    "screens": [
+    name: "Purple Leaf",
+    slug: "purple-leaf",
+    headline: "A score calculator concept.",
+    description:
+      "An APS calculator concept helping matriculants explore tertiary courses and compare entry requirements.",
+    screens: [
       {
-        "image": "01.jpg",
-        "title": "Add your subjects",
-        "caption": "Choose school subjects and their result levels.",
-        "width": 1080,
-        "height": 2280
+        image: "01.jpg",
+        title: "Add your subjects",
+        caption: "Choose school subjects and their result levels.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "03.jpg",
-        "title": "Adjust your results",
-        "caption": "Set a subject level using the result selector.",
-        "width": 1080,
-        "height": 2280
+        image: "03.jpg",
+        title: "Adjust your results",
+        caption: "Set a subject level using the result selector.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "02.jpg",
-        "title": "See your APS",
-        "caption": "Review the calculated points and course-match count.",
-        "width": 1080,
-        "height": 2280
+        image: "02.jpg",
+        title: "See your APS",
+        caption: "Review the calculated points and course-match count.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "04.jpg",
-        "title": "Explore courses",
-        "caption": "Browse courses with their displayed APS requirements.",
-        "width": 1080,
-        "height": 2280
+        image: "04.jpg",
+        title: "Explore courses",
+        caption: "Browse courses with their displayed APS requirements.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "05.jpg",
-        "title": "Understand the gaps",
-        "caption": "Compare subject requirements in a lower-match course view.",
-        "width": 1080,
-        "height": 2280
+        image: "05.jpg",
+        title: "Understand the gaps",
+        caption: "Compare subject requirements in a lower-match course view.",
+        width: 1080,
+        height: 2280,
       },
       {
-        "image": "06.jpg",
-        "title": "Explore a closer match",
-        "caption": "Review another comparison, then use the apply or share options.",
-        "width": 1080,
-        "height": 2280
-      }
-    ]
-  }
+        image: "06.jpg",
+        title: "Explore a closer match",
+        caption:
+          "Review another comparison, then use the apply or share options.",
+        width: 1080,
+        height: 2280,
+      },
+    ],
+  },
 ];
 
 export default function Home() {
@@ -532,13 +589,29 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <section className="passion-section" id="passion" aria-labelledby="passion-title">
+          <section
+            className="passion-section"
+            id="passion"
+            aria-labelledby="passion-title"
+          >
             <div className="passion-heading">
-              <div><span className="mono mint eyebrow">Off the clock / On the screen</span><h3 id="passion-title">Built out of curiosity.</h3></div>
-              <p>Four passion projects. A closer look at the journeys inside each app.</p>
+              <div>
+                <span className="mono mint eyebrow">
+                  Off the clock / On the screen
+                </span>
+                <h3 id="passion-title">Built out of curiosity.</h3>
+              </div>
+              <p>
+                Four passion projects. A closer look at the journeys inside each
+                app.
+              </p>
             </div>
             <PassionGallery projects={passionProjects} />
-            <p className="passion-current"><span className="mint mono">Also building /</span> <strong>Venu</strong> — a private project focused on maintainability and developer experience.</p>
+            <p className="passion-current">
+              <span className="mint mono">Also building /</span>{" "}
+              <strong>Venu</strong> — a private project focused on
+              maintainability and developer experience.
+            </p>
           </section>
         </section>
         <section className="content" id="experience">
@@ -715,4 +788,3 @@ export default function Home() {
     </>
   );
 }
-
