@@ -61,10 +61,10 @@ function PurpleLeafDemo() {
   const [open, setOpen] = useState(false);
   return <Dialog open={open} onOpenChange={setOpen}>
     <div className="app-demo-action">
-      <DialogTrigger className="app-demo-button">Try app ↗</DialogTrigger>
+      <DialogTrigger className="app-demo-button">Try demo app ↗</DialogTrigger>
     </div>
     <DialogContent className="app-viewer snack-viewer">
-      <DialogTitle className="viewer-title">Try Purple Leaf</DialogTitle>
+      <DialogTitle className="viewer-title">Try Purple Leaf Demo</DialogTitle>
       <DialogDescription className="viewer-description">
         Explore the app with Expo Go using the device instructions below.
       </DialogDescription>
