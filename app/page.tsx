@@ -396,6 +396,7 @@ export default function Home() {
           </a>
           <nav aria-label="Main navigation" className="nav-links">
             <a href="#work">Work</a>
+            <a href="#passion">Passion</a>
             <a className="desktop" href="#experience">
               Experience
             </a>
