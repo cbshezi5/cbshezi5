@@ -9,7 +9,7 @@
 I build full-stack software with a focus on performance, reliability,<br/>
 and the details that make it a pleasure to use.
 
-**Gauteng, South Africa · Software Developer Associate at Sybrin**
+**Gauteng, South Africa · Software Developer Intermediate at Sybrin**
 
 [LinkedIn](https://www.linkedin.com/in/cebolenkosi-shezi-17a6b9221/) &nbsp; / &nbsp; [Email](mailto:cbshezi5@gmail.com) &nbsp; / &nbsp; [Repositories](https://github.com/cbshezi5?tab=repositories)
 
@@ -82,7 +82,7 @@ A mobile social side project covering profiles, feeds, photo and video posts, an
 
 ## `03 /` Experience
 
-**Sybrin · Software Developer Associate**  
+**Sybrin · Software Developer Intermediate**  
 April 2023 — Present
 
 Fraud detection, Tazama productization, operational monitoring and internal applications. I work across frontend and backend delivery, benchmark performance, and support containerised deployments and CI/CD workflows.
