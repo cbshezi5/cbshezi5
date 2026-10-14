@@ -430,7 +430,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="intro">
-              intermediate Software Developer.
+              Intermediate Software Developer.
               <br />
               From financial systems to mobile experiences.
             </p>
