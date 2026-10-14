@@ -430,7 +430,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="intro">
-              Associate Software Developer.
+              intermediate Software Developer.
               <br />
               From financial systems to mobile experiences.
             </p>
@@ -628,7 +628,7 @@ export default function Home() {
               <div className="date mono">APR 2023 — PRESENT</div>
             </div>
             <div>
-              <h4>Software Developer Associate</h4>
+              <h4>Software Developer Intermediate</h4>
               <p>
                 Contributing to Tazama and its productization as the Fraud
                 Management System, alongside operational monitoring and internal
